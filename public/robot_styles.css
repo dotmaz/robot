@@ -1,0 +1,17 @@
+.robot-widget{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.robot-widget > h2{
+    margin: 0;
+}
+
+.robot-widget-button{
+    cursor: pointer;
+    color: #197aba;
+    user-select: none;
+}
+

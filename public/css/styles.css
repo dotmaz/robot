@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box!important;
+}
+
+.form{
+    margin: 100px auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2{
+    font-family: Helvetica;
+    margin: 10px 0;
+}
+
+.form input[type=text],.form input[type=password]{
+    width: 250px;
+    height: 30px;
+    margin: 10px 0;
+    text-indent: 2px;
+    /* border: 1px solid rgba(0,0,0,.3); */
+}
+
+.form input[type=button]{
+    width: 150px;
+    height: 25px;
+    margin: 10px 0;
+}
+
+.form a{
+    margin: 10px 0;
+}
